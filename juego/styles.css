@@ -1,0 +1,90 @@
+html, body {
+    margin: 0;                 /* Quitar margen por defecto */
+    padding: 0;                /* Quitar padding por defecto */
+    height: 100%;              /* Altura completa */
+    width: 100%;               /* Anchura completa */
+    overflow: hidden;          /* Evita scroll vertical y horizontal */
+}
+
+
+.juego {
+    display: flex;
+    justify-content: center;      /* Centrar horizontalmente */
+    align-items: center;          /* Centrar verticalmente */
+    flex-direction: column;       /* Colocar tablero y estado en columna */
+    min-height: 100vh;            /* Altura completa de la pantalla */
+    background: linear-gradient(135deg, #f0e5ff, #ffe5e5); /* Fondo degradado */
+    font-family: 'Arial', sans-serif;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+
+/* Texto de información del juego */
+
+.estado {
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+    color: #850028;
+    text-align: center;
+}
+
+/* Fila del tablero */
+
+.tablero-fila {
+    display: flex;
+    justify-content: center;      /* Centrar los cuadrados en la fila */
+}
+
+
+/* Cada cuadrado del tablero */
+
+.cuadrado {
+    width: 80px;
+    height: 80px;
+    margin: 8px;
+    font-size: 2em;
+    font-weight: bold;
+    color: #333;
+    background-color: #fff;
+    border: 3px solid #850028;   /* Borde rojo */
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;   /* Animación suave */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+/* Efecto al pasar el ratón */
+
+.cuadrado:hover {
+    background-color: #f28ab2;
+    transform: scale(1.1);
+}
+
+
+/* Resaltar al hacer clic */
+
+.cuadrado:active {
+    background-color: #d64b7c;
+    color: #fff;
+}
+
+
+/* Responsive Design */
+
+@media screen and (max-width: 600px) {
+    .cuadrado {
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+        margin: 5px;
+    }
+
+    .estado {
+        font-size: 1.4em;
+    }
+}

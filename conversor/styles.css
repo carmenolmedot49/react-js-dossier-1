@@ -1,0 +1,45 @@
+
+/* Estilo para el título principal */
+h1 {
+    text-align: center;        /* Centrar el texto */
+    font-family: Arial, sans-serif; /* Fuente simple y legible */
+    font-size: 2em;            /* Tamaño grande para que destaque */
+    margin-bottom: 20px;       /* Separación con la tabla */
+    color: #850028;
+}
+
+
+/* Tabla centrada y con estilo básico */
+table {
+    width: 60%;                   /* Anchura de la tabla */
+    margin: 30px auto;            /* Centrar horizontal y margen superior/inferior */
+    border-collapse: collapse;    /* Quitar espacio entre las celdas */
+    text-align: center;           /* Centrar el texto dentro de las celdas */
+    font-family: Arial, sans-serif; /* Fuente legible y simple */
+    border: 1px solid #333;       /* Borde oscuro alrededor de la tabla */
+}
+
+/* Encabezado de la tabla */
+thead td {
+    background-color: #850028;    /* Fondo rojo en las celdas del encabezado */
+    color: white;                  /* Texto en blanco */
+    font-weight: bold;             /* Texto en negrita */
+    padding: 10px 0;               /* Espacio arriba y abajo dentro de las celdas */
+}
+
+/* Celdas del cuerpo */
+tbody td {
+    border: 1px solid #ddd;        /* Borde claro para separar celdas */
+    padding: 10px 15px;            /* Espacio dentro de la celda */
+    background-color: #f9f9f9;     /* Fondo gris muy claro */
+}
+
+/* Inputs de número */
+input[type="number"] {
+    width: 70px;                    /* Ancho del input */
+    padding: 5px;                   /* Espacio dentro del input */
+    font-size: 1em;                 /* Tamaño de letra normal */
+    border: 1px solid #490010;      /* Borde rojo alrededor del input */
+    border-radius: 4px;             /* Bordes ligeramente redondeados */
+    text-align: center;             /* Texto centrado dentro del input */
+}
