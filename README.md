@@ -1,5 +1,5 @@
 
-# Proyectos desplegados (acceder los enlaces para ver los resultados)
+# Proyectos desplegados (acceder a los enlaces para ver los resultados)
 
 - Contador: https://contador-jet-one.vercel.app/
 - Conversor Celsius/Fahrenheit: https://conversor-liard.vercel.app/
