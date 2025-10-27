@@ -1,9 +1,12 @@
 
-## Proyectos desplegados (link en los enlaces para ver los resultados)
+# Proyectos desplegados (link en los enlaces para ver los resultados)
+
 - Contador: https://contador-jet-one.vercel.app/
 - Conversor Celsius/Fahrenheit: https://conversor-liard.vercel.app/
 - Tres en Raya: https://juego-tres-en-raya-six.vercel.app/
 - Reloj: https://reloj-steel.vercel.app/
+
+
 
 # react-js-dossier-1
 
