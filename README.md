@@ -1,5 +1,5 @@
 
-# Proyectos desplegados (link en los enlaces para ver los resultados)
+# Proyectos desplegados (acceder los enlaces para ver los resultados)
 
 - Contador: https://contador-jet-one.vercel.app/
 - Conversor Celsius/Fahrenheit: https://conversor-liard.vercel.app/
@@ -9,8 +9,6 @@
 
 
 ## Sobre react-js-dossier-1
-
-Proyectos de práctica en React (con JSX, componentes reutilizables y CSS responsive).
 
 Componentes y elementos que identifican React
 
