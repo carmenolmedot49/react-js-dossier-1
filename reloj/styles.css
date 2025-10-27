@@ -1,38 +1,39 @@
-  body {
-            margin: 0;
-            padding: 0;
-            height: 100vh;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            background: linear-gradient(135deg, #ffe0f0, #fff0f5); /* degradado rosa-lila */
-            font-family: 'Arial', sans-serif;
-        }
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(135deg, #ffe0f0, #fff0f5);
+    font-family: 'Arial', sans-serif;
+}
 
-        .reloj {
-            background-color: #fff0f8;     /* fondo rosa pastel */
-            padding: 40px 60px;
-            border-radius: 20px;
-            box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4); /* sombra suave */
-            text-align: center;
-        }
+.reloj {
+    background-color: #fff0f8;
+    padding: 40px 60px;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(255, 182, 193, 0.4);
+    text-align: center;
+}
 
-        .reloj h1 {
-            color: #ff69b4; /* rosa fuerte */
-            margin-bottom: 20px;
-        }
+.reloj h1 {
+    color: #ff69b4;
+    margin-bottom: 20px;
+}
 
-        .hora {
-            font-size: 3em;
-            color: #ffb6c1; /* rosa pastel */
-            font-weight: bold;
-        }
+.hora {
+    font-size: 3em;
+    color: #ffb6c1;
+    font-weight: bold;
+}
 
-        @media (max-width: 600px) {
-            .reloj {
-                padding: 20px 30px;
-            }
-            .hora {
-                font-size: 2em;
-            }
-        }
+@media (max-width: 600px) {
+    .reloj {
+        padding: 20px 30px;
+    }
+
+    .hora {
+        font-size: 2em;
+    }
+}
